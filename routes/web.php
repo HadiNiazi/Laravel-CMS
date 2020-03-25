@@ -16,10 +16,10 @@ Route::get('/', function () {
 | Started cms code
 |--------------------------------------------------------------------------
 */
-Route::get('/test',function (){
-     return view('admin.index');
+Route::get('/admin',function (){
+    return view('admin.index');
 });
-Route::resource('/admin/user','AdminUserController');
+Route::resource('/admin/users','AdminUserController');
 
 Auth::routes();
 

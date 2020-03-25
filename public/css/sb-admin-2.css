@@ -353,5 +353,9 @@ table.dataTable thead .sorting:after {
     color: #df8a13;
 }
 #admin-page{
-    margin-top: -50px !important;
+    margin-top: -70px;
+}
+.input-group-btn:last-child > .btn, .input-group-btn:last-child > .btn-group {
+    margin-left: -1px;
+    padding: 9px;
 }
